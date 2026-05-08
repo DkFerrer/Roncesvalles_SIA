@@ -1,8 +1,7 @@
 # GitHub OAuth with Flask
 
-
+**Course:** Systems Integration and Architecture
 **Laboratory Activity:** Securing APIs using OAuth 2.0 with GitHub and Auth0
-**Course:** Systems Integration and Architecture  
 **Student:** Lea Roncesvalles  
 
 ---
