@@ -1,16 +1,15 @@
 # GitHub OAuth with Flask
-
-**Course:** Systems Integration and Architecture
 **Laboratory Activity:** Securing APIs using OAuth 2.0 with GitHub and Auth0
+**Course:** Systems Integration and Architecture 
 **Student:** Lea Roncesvalles  
 
 ---
 
 ## Overview
 OAuth 2.0 is an authorization framework that allows applications to access user data from third-party services without exposing user credentials.
-○ Implement login using GitHub OAuth
-○ Protect API endpoints
-○ Explore Auth0 as an alternative identity provide
+- Implement login using GitHub OAuth
+- Protect API endpoints
+- Explore Auth0 as an alternative identity provide
 
 ---
 
