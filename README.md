@@ -1,9 +1,11 @@
 # GitHub OAuth with Flask
+
 **Laboratory Activity:** Securing APIs using OAuth 2.0 with GitHub and Auth0
+
 **Course:** Systems Integration and Architecture 
+
 **Student:** Lea Roncesvalles  
 
----
 
 ## Overview
 OAuth 2.0 is an authorization framework that allows applications to access user data from third-party services without exposing user credentials.
@@ -11,7 +13,6 @@ OAuth 2.0 is an authorization framework that allows applications to access user 
 - Protect API endpoints
 - Explore Auth0 as an alternative identity provide
 
----
 
 ## Requirements
 - Python 3.14.4
@@ -19,7 +20,6 @@ OAuth 2.0 is an authorization framework that allows applications to access user 
 - Authlib
 - Requests
 
----
 
 ## Installation
 
@@ -46,7 +46,6 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
----
 
 ## Routes
 | Route | Description |
@@ -57,7 +56,6 @@ python app.py
 | `/profile` | Shows authenticated user data |
 | `/logout` | Clears session and logs out |
 
----
 
 ## Screenshots
 ### 1. Login Page
