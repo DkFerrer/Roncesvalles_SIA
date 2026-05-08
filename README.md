@@ -1,14 +1,17 @@
 # GitHub OAuth with Flask
+
+
+**Laboratory Activity:** Securing APIs using OAuth 2.0 with GitHub and Auth0
+**Course:** Systems Integration and Architecture  
 **Student:** Lea Roncesvalles  
-**Subject:** Systems Integration and Architecture  
-**School:** University of Nueva Caceres  
 
 ---
 
 ## Overview
-A Flask web application that implements GitHub OAuth 2.0 authentication 
-using Authlib. Users can log in with their GitHub account and view 
-their raw profile data.
+OAuth 2.0 is an authorization framework that allows applications to access user data from third-party services without exposing user credentials.
+○ Implement login using GitHub OAuth
+○ Protect API endpoints
+○ Explore Auth0 as an alternative identity provide
 
 ---
 
@@ -23,24 +26,28 @@ their raw profile data.
 ## Installation
 
 ### 1. Clone the Repository
+```
 git clone https://github.com/DkFerrer/Roncesvalles_SIA.git
 cd Roncesvalles_SIA
-
+```
 ### 2. Create Virtual Environment
+```
 python -m venv venv
 venv\Scripts\activate
-
+```
 ### 3. Install Dependencies
+```
 pip install -r requirements.txt
-
+```
 ### 4. Configure GitHub OAuth
 
 - client_id = 'Ov23liqbgdBpCAsAz5aJ'
 - client_secret = 'f6f52c0aeec2aa332a694763fc99c14a952d9eb4'
 
 ### 5. Run the Application
+```
 python app.py
-
+```
 ---
 
 ## Routes
@@ -69,3 +76,5 @@ python app.py
 
 ### 5. Logout Result
 ![Logout](screenshots/logout_page.png)
+
+##
